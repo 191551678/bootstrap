@@ -1,0 +1,100 @@
+/*
+* @Author: hp
+* @Date:   2019-08-31 14:53:46
+* @Last Modified by:   admin
+* @Last Modified time: 2019-09-01 22:01:05
+*/
+
+
+/* header */
+.header-img{
+	padding: 8px 15px;
+}
+.header-btn{
+	margin: 20px 10px;
+	font-size: 22px;
+	color: #fff;
+}
+.ul1 li a{
+	padding-top: 30px;
+	font-size: 15px;
+	color: #fff;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	color:  #db6f6a;
+	background-color: transparent;
+}
+
+
+/* home */
+.home{
+	background: url('../images/app-image1.jpg') no-repeat fixed  #091827;
+	background-size: cover;
+	background-position: center top;
+	padding-top: 200px;
+}
+.home-left{
+    width: 100%;
+	padding: 30px 15px;
+	color: #fff;
+    position: relative;
+}
+.home-left-icon{
+	width: 60px;
+	height: 60px;
+	margin-left: -30px;
+	text-align: center;
+	line-height: 60px;
+    border: 1px solid #db6f6a;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: #db6f6a;
+}
+.home-left-icon>i{
+	margin-left: -5px;
+}
+.special-h{
+	font-weight: normal;
+    letter-spacing: -0.04em;
+    font-size: 55px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Roboto', arial, sans-serif；
+}
+.home-left-p{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.download a{
+	margin: 0 0px 12px 0;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+	.special-h{
+	    font-size: 40px !important;
+	}
+	.home-left-icon{
+	margin-left: 0px;
+	}
+}
+
+
+
+ @media (min-width: 768px) { 
+	.home-left{
+	    width: 50%;
+	}
+}
+@media (min-width: 970px) { 
+
+}
+@media (min-width: 1170px) { 
+
+}

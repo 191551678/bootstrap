@@ -1,0 +1,619 @@
+/*
+* @Author: hp
+* @Date:   2019-08-27 17:00:26
+* @Last Modified by:   admin
+* @Last Modified time: 2019-09-01 13:23:31
+*/
+/* 头部 */
+body{
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+a{
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px !important;
+}
+a:hover{
+	text-decoration: none;
+}
+.navbar-nav>li>a {
+    margin-left: 20px;
+}
+.navbar-nav {
+    margin: -7px -15px !important;
+}
+.navbar-bgcolor{
+	background-color: transparent;
+}
+.navbar-bgcolor a{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-padding1{
+	padding: 10px 0;
+}
+.header-border1{
+    border-top: 1px solid #222 !important;
+    border-bottom: 1px solid #222 !important;
+}
+.b1{
+	color: #fff;
+}
+.b2{
+	color: #222;
+}
+.nav>li>a:hover{
+	background-color: transparent !important;
+}
+.header-logo{
+}
+.header-logo>i{
+	display: inline;
+	font-size: 50px;
+	margin-left: 20px;
+}
+.header-border a{
+	border: 1px solid transparent;
+}
+
+.logozi{
+	display: inline-block;
+	font-size: 12px;
+    line-height: 1em;
+    font-weight: normal;
+}
+.logozi>b{
+	font-size: 20px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent !important;
+}
+.white{
+	color: #000 !important;
+}
+.wt{
+    color: rgb(255, 255, 255);
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.bl{
+    color: #222;
+    border-top: 1px solid #222 !important;
+    border-bottom: 1px solid #222 !important;
+}
+
+/* .bg-white{
+	background-color: #fff;
+	display: none;
+}
+.bg-white a{
+	color: #222;
+} */
+
+.yh{
+    font-family: "微软雅黑";
+    font-weight: normal;
+}
+.yahei{
+    font-family: "微软雅黑";
+    color: #666;
+}
+
+
+/* 轮播图 */
+
+
+
+
+
+
+
+
+
+.bg-banner{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding-bottom: 100%;
+	/* height: 100%; */
+}
+.box1{
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 350px 0 350px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.banner-text{
+
+}
+
+
+.relative{
+	position: relative;
+}
+#banner{
+    display: table;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+#banner h3{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.cover{
+    background: url('../images/overlay.png') repeat scroll 0 0 rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0; 
+}
+
+
+.line{
+    background: #fff;
+    width: 80px;
+    height: 1px;
+    margin: 25px auto;
+    position: relative;
+    z-index: 1;
+}
+.line1 {
+    background-color: #000;
+    width: 80px;
+    height: 1px;
+    margin: 25px auto;
+    position: relative;
+    z-index: 1;
+}
+.welcome{
+	padding: 130px 0;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.welcome p{
+    color: #3d3d3d;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 85%;
+    margin: 30px auto 0;
+}
+.welcome h3{
+    color: #222222;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.btn1{
+	color: #000;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-weight: 600;
+    border: 2px solid #000;
+    padding: 11px 44px;
+    font-family: "微软雅黑", "Arial Unicode MS";
+    display: table;
+    margin: 45px auto 0;
+    transition: all 0.3s ease-in-out;
+}
+.btn1:hover{
+    border-color: #888;
+    color: #888;
+    text-decoration: none;
+}
+
+
+
+
+.screen3{
+    padding: 130px 0;
+    background: url('../images/banner5.jpg') fixed no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+    background-position: 0px -18px;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+.screen3 h3{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+.screen3 h4{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 24px;
+    text-transform: uppercase
+}
+.screen3 h4 span{
+	font-weight: 700;
+}
+.screen3 .col-md-3{
+	margin-top: 30px;
+}
+.line2{
+    background: #989898;
+    height: 1px;
+    margin: 25px auto 35px;
+    width: 65px;
+}
+
+
+.screen4{
+    padding: 130px 0;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+.screen4 h3,.protfolio-text h3{
+    color: #222;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+    line-height: 24px;
+    /* margin-bottom: 30px; */
+    text-transform: uppercase;
+}
+.screen4 p{
+    color: #3d3d3d;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 85%;
+    margin: 30px auto 0;
+}
+.space100{
+    margin-bottom: 100px;
+}
+.space60{
+    margin-bottom: 60px;
+}
+
+.services{
+    padding: 130px 0;
+    background: #313131 url('../images/banner6.jpg') fixed no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+    color: #fff !important;
+    text-align: center;
+}
+.services-text{
+	position: relative;
+	z-index: 1;
+}
+.services-text h3{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.padding30{
+	padding: 30px 0;
+}
+.services img{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 auto 37px;
+    transition: all 0.3s;
+}
+.services h3{
+	color: 
+}
+.service-hover{
+	cursor: pointer;
+}
+.service-hover:hover img{
+	transform: scale(0.8);
+}
+.protfolio{
+    padding: 130px 0 80px 0;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.protfolio-uls{
+    margin: 10px auto 40px;
+    display: table;
+}
+.protfolio-uls li{
+    float: left;
+    text-align: center;
+    margin: 0 5px;
+    display: block;
+    padding: 5px 12px;
+    text-decoration: none;
+    color: #222;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.uls-active{
+    border: 2px solid #222 !important;
+}
+
+
+
+
+.list{
+    display: inline-block;
+    opacity: 1;
+    padding: 20px 0;
+}
+.lis{
+	overflow: hidden;
+    position: relative !important;
+    cursor: pointer;
+}
+.nopadding{
+	padding: 0px;
+}
+.lis img{
+    max-width: 100%;
+    position: relative;
+    transition: all 0.3s;
+}
+.lis-img{
+	transform: scale(1.3) !important;
+}
+.overlay{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    opacity:0;
+   /*  display: none; */
+    transition: all 0.3s;
+}
+.overlay-text{
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    height: 44px;
+    width: 176px;
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    color: #fff;
+    font-size: 14px;
+}
+.overlay-text:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.btn2{
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+    margin: 30px auto;
+    display: block;
+    padding: 5px 0;
+    cursor: pointer;
+    border: 2px solid #222;
+    background-color: #fff;
+}
+
+.row{
+	margin: 0;
+}
+#client0{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+    background: url('../images/banner7.jpg') fixed no-repeat center;
+    background-position: 0px -51.4844px;
+    background-size: 100% 100%;
+    width: 100%;
+	height: 100%;
+    
+}
+.client{
+	padding: 100px 0;
+	position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+.client h3{
+	color: #fff;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+.client h3 small{
+	color: #fff !important;
+}
+.client img{
+	margin: 0 auto;
+	display: block !important;
+	margin: 50px 0;
+}
+
+
+/* contact */
+.contact{
+    background: #fff;
+    padding: 0 0 110px 0;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.contact-img{
+	width: 152px;
+	height: 152px;
+	transition: all 0.5s;
+}
+.contact-img:hover{
+	transform: scale(1.5) rotateZ(360deg);
+}
+
+
+
+.contact h5{
+	font-weight: 700;
+	color: #222;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.contact a{
+	color: #222;
+	transition: all 0.3s;
+}
+.contact a:hover {
+    color: #1ABC9C;
+
+}
+
+
+
+.mt1{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 1031;
+	display: none;
+}
+.mt0{
+	width: 30%;
+	height: 50%; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 30px;
+	transform: translate(-50%,-50%);
+	background-color: #fff;
+}
+.mt0>span{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+	z-index: 2;
+}
+.mt-ys{
+	text-align: center;
+}
+.mt-ys img{
+	width: 25%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 媒体查询 */
+@media (max-width: 768px) { 
+	.mt-ys img{
+		margin-top: 30px;
+		width: 50%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+	.box1{
+	    display: table;
+	    width: 100%;
+	    height: auto;
+	    padding: 70px 0 50px;
+	    text-align: center;
+	    color: #fff;
+	    position: relative;
+	    z-index: 1;
+	    overflow: hidden;
+	}
+	.mt0{
+		width: 60%;
+		height: 60%;
+	}
+}
+@media (min-width: 768px) { 
+	.mt-ys img{
+		margin-top: 30px;
+		width: 50%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+}
+@media (min-width: 970px) { 
+	.mt-ys img{
+		margin-top: 30px;
+		width: 50%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+}
+@media (min-width: 	1170px) { 
+	.mt-ys img{
+		
+		width: 30%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+}
