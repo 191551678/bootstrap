@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-09-02 18:39:44
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-03 19:28:26
+* @Last Modified time: 2019-09-04 15:07:03
 */
 $(function(){
 
@@ -99,9 +99,11 @@ $(function(){
  		if($(window).scrollTop()>100){
  			$('nav').addClass('white')
  			$('nav a').css('color', '#777')
+ 			$('.header-btn').css('color', '#999');
  		}else{
  			$('nav').removeClass('white')
  			$('nav a').css('color', '#fff')
+ 			$('.header-btn').css('color', '#fff');
  		}
 
  	});

@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-31 14:53:46
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-04 14:54:50
+* @Last Modified time: 2019-09-04 15:15:00
 */
 
 
@@ -511,8 +511,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 	.home{
 		padding-top: 100px;
 	}
-	.header-btn{
-		color: #999;
+	.ul1{
+		background-color: #666;
 	}
 
 }
