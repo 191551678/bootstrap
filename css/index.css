@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-27 17:00:26
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-04 14:17:08
+* @Last Modified time: 2019-09-04 14:30:16
 */
 /* 头部 */
 body{
@@ -581,7 +581,7 @@ a:hover{
 	    display: table;
 	    width: 100%;
 	    height: auto;
-	    padding: 70px 0 55px;
+	    padding: 55px 0 20px;
 	    text-align: center;
 	    color: #fff;
 	    position: relative;
@@ -610,7 +610,7 @@ a:hover{
         left: 0px;
         background: url('../images/index03.jpg') fixed no-repeat center;
 /*         background-position: 0px -51.4844px; */ 
-        background-size: 100% 100%;
+        background-size: 100% 120%;
         width: 100%;
         height: 100%; 
     }
