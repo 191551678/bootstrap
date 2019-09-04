@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-27 17:00:26
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-04 14:30:16
+* @Last Modified time: 2019-09-04 14:32:49
 */
 /* 头部 */
 body{
@@ -581,7 +581,7 @@ a:hover{
 	    display: table;
 	    width: 100%;
 	    height: auto;
-	    padding: 55px 0 20px;
+	    padding: 55px 0 10px;
 	    text-align: center;
 	    color: #fff;
 	    position: relative;
