@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-27 17:00:26
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-04 14:32:49
+* @Last Modified time: 2019-09-04 14:37:00
 */
 /* 头部 */
 body{
@@ -133,9 +133,6 @@ a:hover{
     position: relative;
     z-index: 1;
     overflow: hidden;
-}
-.banner-text{
-
 }
 
 
@@ -588,6 +585,12 @@ a:hover{
 	    z-index: 1;
 	    overflow: hidden;
 	}
+    #banner h3{
+        font-size: 32px;
+    }
+    #banner p{
+        font-size: 12px;
+    }
 	.mt0{
 		width: 60%;
 		height: 60%;
