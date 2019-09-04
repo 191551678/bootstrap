@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-31 14:53:46
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-04 10:11:49
+* @Last Modified time: 2019-09-04 14:54:50
 */
 
 
@@ -17,6 +17,9 @@ p{
     color: #868686 !important;
     margin: 0 0 10px !important;
 }
+.ui-loader-default{ display:none}
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0} 
 /* header */
 .header-img{
 	padding: 8px 15px;
