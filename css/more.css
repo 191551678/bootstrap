@@ -1,0 +1,324 @@
+/*
+* @Author: hp
+* @Date:   2019-08-27 17:00:26
+* @Last Modified by:   hp
+* @Last Modified time: 2019-09-04 19:14:00
+*/
+/* 头部 */
+body{
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+a{
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px !important;
+}
+a:hover{
+	text-decoration: none;
+}
+.navbar-nav>li>a {
+    margin-left: 20px;
+}
+.navbar-nav {
+    margin: -7px -15px !important;
+}
+.navbar-bgcolor{
+	background-color: transparent;
+}
+.navbar-bgcolor a{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-padding1{
+	padding: 10px 0;
+}
+.header-border1{
+    border-top: 1px solid #222 !important;
+    border-bottom: 1px solid #222 !important;
+}
+.b1{
+	color: #fff;
+}
+.b2{
+	color: #222;
+}
+.nav>li>a:hover{
+	background-color: transparent !important;
+}
+.header-logo{
+}
+.header-logo>i{
+	display: inline;
+	font-size: 50px;
+	margin-left: 20px;
+}
+.header-border a{
+	border: 1px solid transparent;
+}
+
+.logozi{
+	display: inline-block;
+	font-size: 12px;
+    line-height: 1em;
+    font-weight: normal;
+}
+.logozi>b{
+	font-size: 20px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent !important;
+}
+.white{
+	color: #000 !important;
+}
+.wt{
+    color: rgb(255, 255, 255);
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.bl{
+    color: #222;
+    border-top: 1px solid #222 !important;
+    border-bottom: 1px solid #222 !important;
+}
+
+/* .bg-white{
+	background-color: #fff;
+	display: none;
+}
+.bg-white a{
+	color: #222;
+} */
+
+.yh{
+    font-family: "微软雅黑";
+    font-weight: normal;
+}
+.yahei{
+    font-family: "微软雅黑";
+    color: #666;
+}
+
+
+/* 轮播图 */
+
+
+
+
+
+
+
+
+
+.bg-banner{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+
+}
+
+
+
+.relative{
+	position: relative;
+}
+
+
+
+
+
+
+.mask1{
+	background-color: transparent;
+}
+
+.h-text{
+    padding: 300px 0 220px;
+
+}
+.h-text h3{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0 0 35px;
+    font-family: "微软雅黑", "Arial Unicode MS";
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    color: #666;
+    text-align: center;
+}
+.line{
+    background: #444;
+    width: 80px;
+    height: 2px;
+    margin: 25px auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+.more-main{
+    padding: 180px 20px 70px;
+    /* background: #fff;  */
+    position: relative;
+    z-index: 2;
+}
+.banner1{
+	margin: 0 0 50px;
+	padding: 0;
+}
+.banner1 .carousel-indicators{
+	bottom: -40px;
+}
+.banner1 .carousel-indicators li{
+	width: 15px;
+	height: 15px;
+}
+.banner2{
+	padding-top: 5px;
+	padding-bottom: 75px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+.more-text1{
+    width: 100%;
+    padding: 0;
+    margin: 35px 0 -15px;
+    font-size: 14px;
+}
+.more-text1>h3{
+	font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #666;
+    padding-bottom: 15px; 
+   	color: #333;
+    margin: 0 0 15px
+}
+.more-text1>span{
+    padding: 5px 0;
+    margin: 0;
+    font-size: 13px;
+    color: #454545;
+    float: left;
+    width: 100%;
+}
+.more-text1 em{
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 40%;
+    display: table;
+    float: left;
+    font-weight: 700;
+}
+
+.imgs{
+	padding: 0;
+}
+.imgs img{
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+.btns{
+	margin: 0 auto 50px;
+	display: table;
+}
+.btns a{
+	padding: 11px 44px;
+    margin: 45px auto 0px;
+    border: 2px solid #222;
+    font-size: 14px;
+    color: #222;
+    position: relative;
+    z-index: 2;	
+    transition: 0.2s;
+}
+.btns a:hover{
+	opacity: 0.8;
+	background-color: rgba(255, 255, 255, 0.3)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact */
+.contact{
+    background: #fff;
+    padding: 50px 0 20px 0;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-color: #222;
+}
+
+
+
+
+.contact h5,.contact h3,.contact a,.contact p,.contact span{
+	color: #eee;
+}
+.contact h5{
+	font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.contact .line{
+	background: #eee;
+}
+.contact a{
+	transition: all 0.3s;
+}
+.contact a:hover {
+    color: #1ABC9C;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* 媒体查询 */
+@media (max-width: 768px) { 
+
+}
+@media (min-width: 768px) { 
+
+}
+@media (min-width: 992px) { 
+
+}
+@media (min-width: 	1200px) { 
+
+}
