@@ -1,2406 +1,803 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>小米商城</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="font/iconfont.css">
-	<script src="js/jquery-1.11.1.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/stellar.js"></script>
 	<script src="js/index.js"></script>
 </head>
-<body>
+<body class="relative">
+		<!-- 背景轮播 -->
+	<div class="bg-banner">
+		<div id="carousel-example-generic" class="carousel " data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+				  <img src="images/banner1.jpg" alt="..."> 
+				</div>
+				<div class="item">
+				 	<img src="images/banner2.jpg" alt="...">
+				</div>
+				<div class="item">
+				 	<img src="images/banner3.jpg" alt="...">
+				</div>			
+			</div>
+		</div>
+	</div>
+	
+
+<!-- 头部 -->
 	<nav>
-		<div class="nav-top">
-			<div class="container">
-				<div class="nav-top-left">
-					<a href="#">小米商城</a>
-					<span>|</span>
-					<a href="#">MIUI</a>
-					<span>|</span>
-					<a href="#">loT</a>
-					<span>|</span>
-					<a href="#">云服务</a>
-					<span>|</span>
-					<a href="#">金融</a>
-					<span>|</span>
-					<a href="#">有品</a>
-					<span>|</span>
-					<a href="#">小爱开放平台</a>
-					<span>|</span>
-					<a href="#">企业团购</a>
-					<span>|</span>
-					<a href="#">资质证照</a>
-					<span>|</span>
-					<a href="#">协议规则</a>
-					<span>|</span>
-					<a href="#">下载app</a>
-					<span>|</span>
-					<a href="#">Select&nbsp;Location</a>
-				</div>
-				<div class="nav-top-right1">
-					<a href="html/Settle.html"><span class="car iconfont icon-cart"></span><span>购物车（0）</span></a>
-					<div class="nav-shop">
-						<div class="nav-shop-info">
-							购物车中还没有商品，赶紧选购吧！
-						</div>
-					</div>
-				</div>
-				<div class="nav-top-right2">
-					<a href="html/account.html">登陆</a>
-					<span>|</span>
-					<a href="html/account.html">注册</a>
-					<span>|</span>
-					<a href="#">消息通知</a>	
-				</div>
-			</div>
-		</div>
-		<div class="nav-bottom">
-			<div class="container">
-				<div class="header-logo clear">
-					<a href="../index.html" class="logo">
-						<span class="logo1"></span>
-						<span class="logo2"></span>
-					</a>
-				</div>
-				<div class="header-nav">
-					<div class="header-down">
-						<div class="header-ul1">
-						<ul></ul>
-					</div>
-					<ul class="header-uls">
-						<li>
-							<span>小米手机</span>
-							<!-- <ul class="header-ul1"> --><!-- 
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul1-1.png" alt="">
-										<p class="title">小米CC9</p>
-										<p class="price">1799元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul1-2.png" alt="">
-									<p class="title">小米CC9e</p>
-									<p class="price">1599元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul1-3.png" alt="">
-									<p class="title">小米CC9美图定制版</p>
-									<p class="price">2599元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul1-4.png" alt="">
-									<p class="title">小米9</p>
-									<p class="price">2599元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul1-5.png" alt="">
-									<p class="title">小米mix3</p>
-									<p class="price">2599元起</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul1-6.png" alt="">
-									<p class="title">小米CC9</p>
-									<p class="price">1799元起</p>
-									</a>
-								</li>
-							 -->
-							<!-- </ul> -->
-						</li>
-						<li>
-							<span>Redmi&nbsp;红米</span>
-							<!-- <ul class="header-ul1">
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul2-1.jpg" alt="">
-										<p class="title">Redmi&nbsp;K20&nbsp;Pro</p>
-										<p class="price">2299</p>	
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul2-2.jpg" alt="">
-										<p class="title">Redmi&nbsp;K20</p>
-										<p class="price">1999元起</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul2-3.jpg" alt="">
-										<p class="title">Redmi&nbsp;Note7&nbsp;Pro</p>
-										<p class="price">1399元起</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul2-4.jpg" alt="">
-										<p class="title">Redmi&nbsp;7A</p>
-										<p class="price">579元起</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul2-5.png" alt="">
-										<p class="title">Redmi&nbsp;Note7</p>
-										<p class="price">999元起</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul2-6.png" alt="">
-										<p class="title">Redmi</p>
-										<p class="price">699元起</p>
-									</a>
-								</li>
-							</ul> -->
-						</li>
-						<li>
-							<span>电视</span>
-							<!-- <ul class="header-ul1">
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-1.png" alt="">
-										<p class="title">小米壁画电视 65英寸</p>
-										<p class="price">6999元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-2.png" alt="">
-										<p class="title">小米全面屏电视E55A</p>
-										<p class="price">1999元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-3.jpg" alt="">
-										<p class="title">小米电视4A 32英寸</p>
-										<p class="price">699元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-4.jpg" alt="">
-										<p class="title">小米电视4A 55英寸</p>
-										<p class="price">1499元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-5.jpg" alt="">
-										<p class="title">小米电视4A 65英寸</p>
-										<p class="price">2699元起</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul3-6.jpg" alt="">
-										<p class="title">查看全部</p>
-										<p class="title">小米电视</p>
-									</a>
-								</li>
-							</ul> -->
-						</li>
-						<li>
-							<span>笔记本</span>
-							<!-- <ul class="header-ul1">
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul4-1.png" alt="">
-										<p class="title">RedmiBook 14 独显版</p>
-										<p class="price">3599元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul4-2.png" alt="">
-										<p class="title">小米笔记本Air 12.5"</p>
-										<p class="price">2999元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul4-3.png" alt="">
-										<p class="title">小米笔记本 Air 13.3"</p>
-										<p class="price">3999元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul4-4.png" alt="">
-										<p class="title">小米笔记本 15.6"</p>
-										<p class="price">3299元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul4-5.png" alt="">
-										<p class="title">小米笔记本Pro 15.6"</p>
-										<p class="price">4999元起</p>	
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul4-6.png" alt="">
-										<p class="title">小米游戏本</p>
-										<p class="price">5999元起</p>	
-									</a>
-								</li>
-							</ul> -->
-						</li>
-						<li>
-							<span>家电</span>
-							<!-- <ul class="header-ul1">
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-1.png" alt="">
-										<p class="title">小米壁画电视 65英寸</p>
-										<p class="price">6999元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-2.png" alt="">
-										<p class="title">小米全面屏电视E55A</p>
-										<p class="price">1999元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-3.jpg" alt="">
-										<p class="title">小米电视4A 32英寸</p>
-										<p class="price">699元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-4.jpg" alt="">
-										<p class="title">小米电视4A 55英寸</p>
-										<p class="price">1499元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul3-5.jpg" alt="">
-										<p class="title">小米电视4A 65英寸</p>
-										<p class="price">2699元起</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul3-6.jpg" alt="">
-										<p class="title">查看全部</p>
-										<p class="title">小米电视</p>
-									</a>
-								</li>
-							</ul> -->
-						</li>
-						<li>
-							<span>路由器</span>
-						<!-- 	<ul class="header-ul1">
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul6-1.jpg" alt="">
-										<p class="title">小米路由器4A 千兆版</p>
-										<p class="price">149元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul6-2.png" alt="">
-									<p class="title">小米路由器 HD/Pro</p>
-									<p class="price">399元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul6-3.jpg" alt="">
-									<p class="title">小米路由器4A</p>
-									<p class="price">99元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul6-1.jpg" alt="">
-										<p class="title">小米路由器4A 千兆版</p>
-										<p class="price">149元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul6-2.png" alt="">
-									<p class="title">小米路由器 HD/Pro</p>
-									<p class="price">399元起</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul6-3.jpg" alt="">
-									<p class="title">小米路由器4A</p>
-									<p class="price">99元起</p>
-									</a>
-								</li>
-							</ul> -->
-						</li>
-						<li>
-							<span>智能硬件</span>
-							<!-- <ul class="header-ul1">
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul7-1.jpg" alt="">
-										<p class="title">小米米家智能门锁</p>
-										<p class="price">1799元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul7-2.jpg" alt="">
-									<p class="title">小米米家智能摄像机云台版</p>
-									<p class="price">199元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul7-3.jpg" alt="">
-									<p class="title">小米小爱触屏音箱</p>
-									<p class="price">599元起</p>
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul7-1.jpg" alt="">
-										<p class="title">小米米家智能门锁</p>
-										<p class="price">1799元起</p>	
-									</a>
-								</li>
-								<li class="xian">
-									<a href="#">
-										<img src="images/header-ul7-2.jpg" alt="">
-									<p class="title">小米米家智能摄像机云台版</p>
-									<p class="price">199元起</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/header-ul7-4.jpg" alt="">
-									<p class="title">查询更多</p>
-									<p class="title">智能硬件</p>
-									</a>
-								</li>
-							</ul> -->
-						</li>
-					</ul>
-					</div>
-					
-				</div>
-					<ul class="header-uls-r">
-						<li>
-							<span>服务</span>
-							
-						</li>
-						<li>
-							<span>社区</span>
-							
-						</li>
-					</ul>
-
-				<div class="header-search">
-					<form action="#">
-						<input type="search" class="search">
-						<div class="search-small">
-							<span>小米9</span>
-							<span>小米9SE</span>
-						</div>
-						
-						<input type="submit" value="" class="sousuo">
-						<span class="sou"></span>
-					</form>
-				</div>
-			</div>
-		</div>
+		<div class="navbar navbar-bgcolor navbar-fixed-top white">
+  			<div class="container  header-padding1">
+  				<div class="navbar-header">
+				      <button class="b1 navbar-toggle collapsed glyphicon glyphicon-menu-hamburger" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+				        <!-- <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span> -->
+				      </button>
+				      <a class="navbar-brand header-logo" href="#">
+				      	<i class="yphicon-euroglyphicon glyphicon-eur"></i>
+				      	<div class="logozi">
+				      		<b>SEA</b><br>
+				      		INTERACTION
+				      	</div>
+				      </a>
+			    </div>
+			    <div class="navbar-collapse collapse nav-hover w1" role="navigation">
+				      <ul class="nav navbar-nav navbar-right hidden-sm header-border">
+				      	<li class="hidden-sm hidden-md">
+				        	<a href="#about" class="smooth">About</a>
+				        </li>
+				        <li class="hidden-sm hidden-md"><a href="#team" class="smooth">Team</a></li>
+				        <li><a href="#services" class="smooth">Services</a></li>
+				        <li><a href="#protfolio" class="smooth">portfolio</a></li>
+				        <li><a href="#client" class="smooth">Client</a></li>
+				        <li class="hidden-sm hidden-md">
+				        	<a href="#contact" class="smooth">Contact</a>
+				        </li>
+				      </ul>
+		    	</div>
+  			</div>
+  		</div>
 	</nav>
+	
 
-	<div class="container-fluid">
-		<div class="container banner1">
-			<div class="banner">
-				<ul class="banner-bg">
-					<li><a href="html/product.html"><img src="images/sp5.jpg" alt=""></a></li>
-					<li><a href="html/product.html"><img src="images/sp4.jpg" alt=""></a></li>
-					<li><a href="html/product.html"><img src="images/sp3.jpg" alt=""></a></li>
-					<li><a href="html/product.html"><img src="images/sp2.jpg" alt=""></a></li>
-					<li><a href="html/product.html"><img src="images/sp1.jpg" alt=""></a></li>
-				</ul>
-				<ul class="banner-bottom">
-					<li class="banner-active"></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-				<div class="banner-bt1"></div>
-				<div class="banner-bt2"></div>
+	
+<!-- 标题轮播页 -->
+	<section class="box1" id="about">
+		
+		<div class="cover"></div>
+		<div class="banner clearfix">
+			<div id="banner" class="carousel slide clearfix" data-ride="carousel">
+
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">      
+			      	<h3>We will design your future</h3>
+			      	<div class="line"></div>
+			      	<p>海互动是一家网站定制、APPS设计公司</p>
+			    </div>
+			    <div class="item">    
+			      	<h3>WE CREATE Digital Experience</h3>
+			      	<div class="line"></div>
+			      	<p>我们专注于品质和独特的解决方案</p>
+			    </div>
+			    <div class="item">
+			      	<h3>We will design your ideas</h3>
+			      	<div class="line"></div>
+			      	<p>我们用优秀的设计帮助企业形成有价值的品牌竞争力</p>
+			    </div>
+			  </div>
+
+			</div>
+		</div>
+		
+		
+	</section>
+
+
+<!-- 第二板块 -->
+	<section class="welcome">
+		<div class="container">
+			<div class="row">
+				<div class="com-md-12 ">
+					<h3 class="wow fadeInUpBig">Welcome to our agency</h3>
+					<div class="line1 wow flip"></div>
+					<p class="wow rotateInDownLeft" data-wow-delay="1s">
+						<span class="yh">
+							海互动是一家创造性的网络解决方案公司，结合前端技术与巧妙的设计思路努力带来了独特的人机体验。 <br>
+							我们的愿望是让每一个人享受网络带来的美好生活。我们专注于品质和独特的解决方案，从我们的工作可以看出，在所有的媒体：网络、平面和移动。我们总是希望接受挑战，利用我们所有的知识和经验，概念开发，设计和技术实现把每一个新项目打造成精品。
+						</span>
+					 		INTERACTION is a strategy, branding, and design company.</p>
+					 <a href="html/app.html" class="btn1 wow flipInY" data-wow-delay="1.5s">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- 第三板块 -->
+
+	<section class="screen3">
+		<div class="cover"></div>
+		<div class="container">
+			<div class="row">
+				<h3 class="wow rollIn">
+					Some fun facts 
+					<span class="yh">历程</span>
+				</h3>
+				<div class="col-md-3">
+					<h4 class="wow fadeInLeftBig">
+						<em id="lines">75</em>
+						<span>WEBSITES</span>
+					</h4>
+					<div class="line2 wow flip"></div>
+					<p class="yh wow fadeInUpBig">
+						应用出色的设计和高效的代码(JavaScript,HTML5,CSS3,PHP)我们用创造性的思维来打造创造性的项目。
+					</p>
+				</div>
+				<div class="col-md-3">
+					<h4 class="wow rotateInDownLeft">
+						<em id="lines">75</em>
+						<span>WEBSITES</span>
+					</h4>
+					<div class="line2 wow flip"></div>
+					<p class="yh wow rotateInUpLeft" data-wow-delay="0.2s">
+						应用出色的设计和高效的代码(JavaScript,HTML5,CSS3,PHP)我们用创造性的思维来打造创造性的项目。
+					</p>
+				</div>
+				<div class="col-md-3">
+					<h4 class="wow rotateInDownRight">
+						<em id="lines">75</em>
+						<span>WEBSITES</span>
+					</h4>
+					<div class="line2 wow flip"></div>
+					<p class="yh wow rotateInUpRight" data-wow-delay="0.2s">
+						应用出色的设计和高效的代码(JavaScript,HTML5,CSS3,PHP)我们用创造性的思维来打造创造性的项目。
+					</p>
+				</div>
+				<div class="col-md-3">
+					<h4 class="wow fadeInRightBig">
+						<em id="lines">75</em>
+						<span>WEBSITES</span>
+					</h4>
+					<div class="line2 wow flip"></div>
+					<p class="yh  wow fadeInUpBig">
+						应用出色的设计和高效的代码(JavaScript,HTML5,CSS3,PHP)我们用创造性的思维来打造创造性的项目。
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+<!-- 第四板块 -->
+
+	<section class="screen4" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="space100">
+					<h3 class="wow bounceIn">Our team</h3>
+					<div class="line1 wow flip"></div>
+					<p class="yahei wow lightSpeedIn">
+						诚实，勤奋，和信任我们的核心价值观，这些特性会影响我们的业务和生活中的一切。我们真诚地欣赏我们的工作，并为我们的客户争取利益。<br>
+
+					    With our core values of hoesty, hard work, and trust. Our goal is to have these characteristics  influence everything we do in business and in life. We sincerely enjoy the work  we do, and our clients garner the benefits.
+					</p>
+				</div>
+				<div class="spance100"></div>
+				<div class="col-xs-12">
+					
+					  <div class="col-md-3 col-sm-2 wow bounceInUp">
+					    <div class="thumbnail">
+					      <img src="./images/team1.jpg" alt="...">
+					      <div class="caption">
+					        <h3>SEA</h3>
+					        <h5 class="text-center">UE Designe</h5>
+					        <p>团队联合创始人，自2011年团队成立以来一直担任CEO，2014年被任命为团队董事会董事长。</p>
+					        <p><a href="#mt1" class="btn btn-primary" role="button">MORE</a></p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="col-md-3 col-sm-2 wow bounceInUp" data-wow-delay="0.1s">
+					    <div class="thumbnail">
+					      <img src="./images/team2.jpg" alt="...">
+					      <div class="caption">
+					        <h3>LEE</h3>
+					        <h5 class="text-center">PMP 项目管理</h5>
+					        <p>全面负责公司的产品、运营、市场、商业等业务。加入团队之前，曾就职于NEC、网易。</p>
+					        <p><a href="#mt1" class="btn btn-primary" role="button">MORE</a></p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="col-md-3 col-sm-2 wow bounceInUp" data-wow-delay="0.2s">
+					    <div class="thumbnail">
+					      <img src="./images/team3.jpg" alt="...">
+					      <div class="caption">
+					        <h3>LU LEE</h3>
+					        <h5 class="text-center">MARKETING MANAGEMENT</h5>
+					        <p>全面负责团队的游戏业务，此前主要负责团队的产品。加入团队之前，曾就职于网易、21CN。</p>
+					        <p><a href="#mt1" class="btn btn-primary" role="button">MORE</a></p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="col-md-3 col-sm-2 wow bounceInUp" data-wow-delay="0.3s">
+					    <div class="thumbnail">
+					      <img src="./images/team4.jpg" alt="...">
+					      <div class="caption">
+					        <h3>BANBAN</h3>
+					        <h5 class="text-center">PROJECT PLANNING</h5>
+					        <p>主要负责团队的财务、会计、投资、融资、投资关系等事务。加入团队之前，曾就职于网易。</p>
+					        <p><a href="#mt1" class="btn btn-primary" role="button">MORE</a></p>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services" id="services" data-stellar-background-ratio="0.005">
+		<div class="cover"></div>
+		<div class="container">
+			<div class="row">
+				<div class="services-text">
+					<h3 class="wow bounceIn">Our services</h3>
+					<div class="line wow flip"></div>
+					<p class="yh wow lightSpeedIn">
+						<span class="yh">作为一个诚实的团队，我们承诺要告诉你我们是否是适合这份工作的最佳选择。下面是我们所擅长的几件事情。</span><br>
+						As honest folks, we promise to tell you whether or not we’re the best fit for the job. Below are a few things we know we’re good at.
+					</p>
+				</div>
+				<div class="space60"></div>
+
+
+				<div class="col-md-12">
+
+					<div class="col-md-4 col-sm-6 service-hover">
+						<div class="padding30">
+							<img src="images/services1.png" alt="" class="wow bounceIn">
+							<h4 class="wow rotateInDownLeft">
+								Web Designing<br><br>
+								<span class="yh">网站定制</span>
+							</h4>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service-hover">
+						<div class="padding30">
+							<img src="images/services2.png" alt="" class="wow bounceIn">
+							<h4 class="wow rotateInDownRight">
+								MOBILE APPLICATION<br><br>
+								<span class="yh">移动应用</span>
+							</h4>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service-hover">
+						<div class="padding30">
+							<img src="images/services3.png" alt="" class="wow bounceIn">
+							<h4 class="wow rotateInDownLeft">
+								E-COMMERCE<br><br>
+								<span class="yh">电商平台</span>
+							</h4>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service-hover">
+						<div class="padding30">
+							<img src="images/services4.png" alt="" class="wow bounceIn">
+							<h4 class="wow rotateInDownRight">
+								UI&UX<br><br>
+								<span class="yh">用户界面</span>
+							</h4>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service-hover">
+						<div class="padding30">
+							<img src="images/services5.png" alt="" class="wow bounceIn">
+							<h4 class="wow rotateInDownLeft">
+								GRAPHIC DESIGN<br><br>
+								<span class="yh">平面设计</span>
+							</h4>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service-hover">
+						<div class="padding30">
+							<img src="images/services6.png" alt="" class="wow bounceIn">
+							<h4 class="wow rotateInDownRight">
+								BRANDING<br><br>
+								<span class="yh">品牌策略</span>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+	<section class="protfolio" id="protfolio">
+		<div class="row"></div>
+		<div class="protfolio-text">
+			<h3>Our services</h3>
+			<div class="line1  wow flip"></div>
+		</div>
+		<ul class="protfolio-uls">
+			<li class="uls-active wow bounceIn">All</li>
+			<li class="wow bounceIn" data-wow-delay="0.2s">Web Design</li>
+			<li class="wow bounceIn" data-wow-delay="0.4s">GRAPHIC DESIGN</li>
+		</ul>
+		<div class="list">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 nopadding design wow flipInX">
+					<div class="lis">
+						<img src="images/list1.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipInY" data-wow-delay="0.1s">
+					<div class="lis">
+						<img src="images/list2.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding design wow flipInX" data-wow-delay="0.2s">
+					<div class="lis">
+						<img src="images/list3.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipInY" data-wow-delay="0.3s">
+					<div class="lis">
+						<img src="images/list4.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding design wow flipIn wow flipInX" data-wow-delay="0.1s">
+					<div class="lis">
+						<img src="images/list5.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipIn wow flipInY" data-wow-delay="0.2s">
+					<div class="lis">
+						<img src="images/list6.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding w wow flipIneb wow flipInX" data-wow-delay="0.3s">
+					<div class="lis">
+						<img src="images/list7.gif" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding w wow flipIneb wow flipInY" data-wow-delay="0.1s">
+					<div class="lis">
+						<img src="images/list8.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipInX" data-wow-delay="0.2s">
+					<div class="lis">
+						<img src="images/list9.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding design wow flipInY" data-wow-delay="0.3s">
+					<div class="lis">
+						<img src="images/list10.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipInX" data-wow-delay="0.1s">
+					<div class="lis">
+						<img src="images/list11.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipInY" data-wow-delay="0.2s">
+					<div class="lis">
+						<img src="images/list12.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInX" data-wow-delay="0.3s">
+					<div class="lis">
+						<img src="images/list13.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipInY" data-wow-delay="0.1s">
+					<div class="lis">
+						<img src="images/list14.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipInX" data-wow-delay="0.2s">
+					<div class="lis">
+						<img src="images/list15.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipInY" data-wow-delay="0.3s">
+					<div class="lis">
+						<img src="images/list16.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding web wow flipInX" data-wow-delay="0.1s">
+					<div class="lis">
+						<img src="images/list17.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding design wow flipInY" data-wow-delay="0.2s">
+					<div class="lis">
+						<img src="images/list18.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInX" data-wow-delay="0.3s">
+					<div class="lis">
+						<img src="images/list19.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding design wow flipInY" data-wow-delay="0.1s">
+					<div class="lis">
+						<img src="images/list20.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInX" data-wow-delay="0.2s">
+					<div class="lis">
+						<img src="images/list21.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInY" data-wow-delay="0.3s">
+					<div class="lis">
+						<img src="images/list22.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInX" data-wow-delay="0.1s">
+					<div class="lis">
+						<img src="images/list23.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInY" data-wow-delay="0.2s">
+					<div class="lis">
+						<img src="images/list24.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInX" data-wow-delay="0.3s">
+					<div class="lis">
+						<img src="images/list25.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInY" data-wow-delay="0.1s">
+					<div class="lis">
+						<img src="images/list26.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInX" data-wow-delay="0.2s">
+					<div class="lis">
+						<img src="images/list7.gif" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nopadding wow flipInY" data-wow-delay="0.3s">
+					<div class="lis">
+						<img src="images/list2.jpg" alt="">
+						<div class="overlay">
+							<a href="#">
+								<span class="overlay-text">View Project</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+
+		<a href="javascript:void(0);" class="btn2 wow bounceIn"></a>
+
+
+	</section>
+
+	<section class="client" id="client">
+		<div id="client0"  data-stellar-background-ratio="0.005"></div>
+		<div class="cover"></div>
+		<div class="container">
+			<div class="row wow flip">
+				<div class="client-text">
+					<h3>OUR CLIENTS</h3>
+				</div>
+					<div id="client1" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#client1" data-slide-to="0" class="active"></li>
+					    <li data-target="#client1" data-slide-to="1"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+
+					    <div class="item active">
+					    	<div class="col-md-offset-5 col-xs-offset-4">
+					    		 <img src="images/client1.png" alt="...">
+					    	</div>
+					     
+					      <div class="space60 col-md-6 col-md-offset-3">
+
+					        <h3>
+							DAVE LUCKER<br>
+							<small>CEO</small>
+							</h3>
+							Aenean dignissim libero et quam tristique vel vehicula nunc suscipit. Fusce id dui sem. Cras gravida odio et magna faucbus iaculis. Vestibulum ante ipsum primis in faucibus orci. Luctus et ultrices posuere..	
+					      </div>
+					    </div>
+
+					    <div class="item">
+
+					      <div class="col-md-offset-5 col-xs-offset-4">
+					      	<img src="images/client1.png" alt="...">
+					 	  </div>
+					      <div class="space60 col-md-6 col-md-offset-3">
+
+					        <h3>
+							ALAN LUCKER<br>
+							<small>CPO</small>
+							</h3>
+							Aenean dignissim libero et quam tristique vel vehicula nunc suscipit. Fusce id dui sem. Cras gravida odio et magna faucbus iaculis. Vestibulum ante ipsum primis in faucibus orci. Luctus et ultrices posuere..
+					    	</div>
+					    
+					  	</div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#client1" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+					    <!-- <span class="sr-only">Previous</span> -->
+					  </a>
+					  <a class="right carousel-control " href="#client1" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <!-- <span class="sr-only">Next</span> -->
+					  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-text">
+					<h3 class=" wow flipInX">
+						<img src="images/getqrcode.jpg" alt="" class="contact-img">
+					</h3>
+					<div class="line1 wow flip"></div>
+					<p class="wow lightSpeedIn">
+						<span class="yahei">
+							没有什么让我们喜欢卷起衣袖，开始一个全新的项目。让我们一起做一些伟大的事情。
+						</span><br>
+						There’s nothing we like more than rolling up our sleeves and starting a brand new project. Let’s make something great together.
+					</p>
+				</div>
+				<div class="space60"></div>.
+				<div class="col-md-12">
+					<div class="col-md-4 wow rotateInDownLeft">
+						<h5><span class="glyphicon glyphicon-earphone"></span>Telephone</h5>
+						<p>+86-132-4298-6960</p>
+					</div>
+					<div class="col-md-4 wow fadeInUpBig">
+						<h5><span class="glyphicon glyphicon-map-marker"></span> Address</h5>
+						<p>
+							OCTRoom502B,BuildingB-3,<br>
+							OCTLOFT,Shenzhen,China-LOFT	<br>
+							<span class="yahei">
+								深圳市南山区华侨城创意文化园北区B3栋502B
+							</span>
+						</p>
+					</div>
+					<div class="col-md-4 wow rotateInDownRight">
+						<h5>
+							<a href="#">
+							<span class="glyphicon glyphicon-envelope"></span>
+							 Email
+							给我
+							</a>
+						</h5>
+					</div>
+
+				</div>
 			</div>
 			
-			<div class="list1">	
-				<ol class="ol">
-					<li class="li_span">
-						<p>手机&nbsp;电话卡</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="html/product.html"><img src="images/list_sp01.png" alt=""><span>极光</span></a></li>
-								<li><a href="#"><img src="images/list_sp02.jpg" alt=""><span>液晶</span></a></li>
-								<li><a href="#"><img src="images/list_sp03.png" alt=""><span>无极</span></a></li>
-								<li><a href="#"><img src="images/list_sp04.jpg" alt=""><span>米家3</span></a></li>
-								<li><a href="#"><img src="images/list_sp01.png" alt=""><span>米家1</span></a></li>
-								<li><a href="#"><img src="images/list_sp02.jpg" alt=""><span>米家4</span></a></li>
-								<li><a href="#"><img src="images/list_sp03.png" alt=""><span>米家5</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="li_span">
-						<p>电视&nbsp;盒子</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="html/product.html"><img src="images/list_sp05.jpg" alt=""><span>小米9</span></a></li>
-								<li><a href="#"><img src="images/list_sp06.png" alt=""><span>红米7</span></a></li>
-								<li><a href="#"><img src="images/list_sp07.jpg" alt=""><span>米粉卡</span></a></li>
-								<li><a href="#"><img src="images/list_sp06.png" alt=""><span>红米7</span></a></li>
-								<li><a href="#"><img src="images/list_sp05.jpg" alt=""><span>小米9</span></a></li>
-								<li><a href="#"><img src="images/list_sp06.png" alt=""><span>红米7</span></a></li>
-								<li><a href="#"><img src="images/list_sp07.jpg" alt=""><span>米粉卡</span></a></li>
-								<li><a href="#"><img src="images/list_sp08.jpg" alt=""><span>4G卡</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="li_span">
-						<p>笔记本&nbsp;平板</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="#"><img src="images/list_sp09.jpg" alt=""><span>背包</span></a></li>
-								<li><a href="#"><img src="images/list_sp10.jpg" alt=""><span>牙刷</span></a></li>
-								<li><a href="html/product.html"><img src="images/list_sp14.png" alt=""><span>手环</span></a></li>
-								<li><a href="#"><img src="images/list_sp09.jpg" alt=""><span>背包</span></a></li>
-								<li><a href="#"><img src="images/list_sp09.jpg" alt=""><span>背包</span></a></li>
-								<li><a href="#"><img src="images/list_sp10.jpg" alt=""><span>牙刷</span></a></li>
-								<li><a href="#"><img src="images/list_sp14.png" alt=""><span>手环</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="li_span">
-						<p>家电&nbsp;插线板</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="#"><img src="images/list_sp11.jpg" alt=""><span>平衡车</span></a></li>
-								<li><a href="#"><img src="images/list_sp12.jpg" alt=""><span>滑板车</span></a></li>
-								<li><a href="#"><img src="images/list_sp11.jpg" alt=""><span>平衡车</span></a></li>
-								<li><a href="#"><img src="images/list_sp12.jpg" alt=""><span>滑板车</span></a></li>
-								<li><a href="#"><img src="images/list_sp11.jpg" alt=""><span>平衡车</span></a></li>
-								<li><a href="#"><img src="images/list_sp12.jpg" alt=""><span>滑板车</span></a></li>
-								<li><a href="#"><img src="images/list_sp11.jpg" alt=""><span>平衡车</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="li_span">
-						<p>出行&nbsp;穿戴</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="#"><img src="images/list_sp13.jpg" alt=""><span>VR眼镜</span></a></li>
-								<li><a href="#"><img src="images/list_sp15.jpg" alt=""><span>吹风机</span></a></li>
-								<li><a href="#"><img src="images/list_sp15.jpg" alt=""><span>VR眼镜</span></a></li>
-								<li><a href="#"><img src="images/list_sp13.jpg" alt=""><span>吹风机</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="li_span">
-						<p>手机&nbsp;电话卡</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="#"><img src="images/list_sp01.png" alt=""><span>极光</span></a></li>
-								<li><a href="#"><img src="images/list_sp02.jpg" alt=""><span>液晶</span></a></li>
-								<li><a href="#"><img src="images/list_sp03.png" alt=""><span>无极</span></a></li>
-								<li><a href="#"><img src="images/list_sp04.jpg" alt=""><span>米家3</span></a></li>
-								<li><a href="#"><img src="images/list_sp01.png" alt=""><span>米家1</span></a></li>
-								<li><a href="#"><img src="images/list_sp02.jpg" alt=""><span>米家4</span></a></li>
-								<li><a href="#"><img src="images/list_sp03.png" alt=""><span>米家5</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="li_span">
-						<p>电视&nbsp;盒子</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="#"><img src="images/list_sp05.jpg" alt=""><span>小米9</span></a></li>
-								<li><a href="#"><img src="images/list_sp06.png" alt=""><span>红米7</span></a></li>
-								<li><a href="#"><img src="images/list_sp07.jpg" alt=""><span>米粉卡</span></a></li>
-								<li><a href="#"><img src="images/list_sp06.png" alt=""><span>红米7</span></a></li>
-								<li><a href="#"><img src="images/list_sp05.jpg" alt=""><span>小米9</span></a></li>
-								<li><a href="#"><img src="images/list_sp06.png" alt=""><span>红米7</span></a></li>
-								<li><a href="#"><img src="images/list_sp07.jpg" alt=""><span>米粉卡</span></a></li>
-								<li><a href="#"><img src="images/list_sp08.jpg" alt=""><span>4G卡</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="li_span">
-						<p>笔记本&nbsp;平板</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="#"><img src="images/list_sp09.jpg" alt=""><span>背包</span></a></li>
-								<li><a href="#"><img src="images/list_sp10.jpg" alt=""><span>牙刷</span></a></li>
-								<li><a href="#"><img src="images/list_sp14.png" alt=""><span>手环</span></a></li>
-								<li><a href="#"><img src="images/list_sp09.jpg" alt=""><span>背包</span></a></li>
-								<li><a href="#"><img src="images/list_sp09.jpg" alt=""><span>背包</span></a></li>
-								<li><a href="#"><img src="images/list_sp10.jpg" alt=""><span>牙刷</span></a></li>
-								<li><a href="#"><img src="images/list_sp14.png" alt=""><span>手环</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="li_span">
-						<p>家电&nbsp;插线板</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="#"><img src="images/list_sp11.jpg" alt=""><span>平衡车</span></a></li>
-								<li><a href="#"><img src="images/list_sp12.jpg" alt=""><span>滑板车</span></a></li>
-								<li><a href="#"><img src="images/list_sp11.jpg" alt=""><span>平衡车</span></a></li>
-								<li><a href="#"><img src="images/list_sp12.jpg" alt=""><span>滑板车</span></a></li>
-								<li><a href="#"><img src="images/list_sp11.jpg" alt=""><span>平衡车</span></a></li>
-								<li><a href="#"><img src="images/list_sp12.jpg" alt=""><span>滑板车</span></a></li>
-								<li><a href="#"><img src="images/list_sp11.jpg" alt=""><span>平衡车</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="li_span">
-						<p>生活&nbsp;箱包</p>
-						<div class="sp01">
-							<ul>
-								<li><a href="#"><img src="images/list_sp13.jpg" alt=""><span>VR眼镜</span></a></li>
-								<li><a href="#"><img src="images/list_sp15.jpg" alt=""><span>吹风机</span></a></li>
-								<li><a href="#"><img src="images/list_sp15.jpg" alt=""><span>VR眼镜</span></a></li>
-								<li><a href="#"><img src="images/list_sp13.jpg" alt=""><span>吹风机</span></a></li>
-							</ul>
-						</div>
-					</li>
-				</ol>
-			</div>
 		</div>
-	</div>
-	
-	<div class="container">
-		<div class="spanl">
-			<ul class="home-list">
-				<li><a href="#">
-					<img src="images/spanls1.png" alt="">
-                                    小米秒杀
-				</a></li>
-				<li><a href="#">
-					<img src="images/spanls2.png" alt="">
-                                    企业团购	
-				</a></li>
-				<li><a href="#">
-					<img src="images/spanls3.png" alt="">
-                                    F码通道	
-				</a></li>
-				<li><a href="#">
-					<img src="images/spanls4.png" alt="">
-                                    米粉卡	
-				</a></li>
-				<li><a href="#">
-					<img src="images/spanls5.png" alt="">
-                                    以旧换新	
-				</a></li>
-				<li><a href="#">
-					<img src="images/spanls6.png" alt="">
-                                    话费充值	
-				</a></li>
-			</ul>
-		</div>
-		<div class="spanr">
-			<ul class="home-right">
-				<li><a href="html/product.html"><img src="images/sp01.jpg" alt=""></a></li>
-				<li><a href="html/product.html"><img src="images/sp02.jpg" alt=""></a></li>
-				<li><a href="html/product.html"><img src="images/sp03.jpg" alt=""></a></li>
-			</ul>
-		</div>
-	</div>
+	</section>
 
-	<div class="container-fluid box empty">
-		<div class="container">
-			<div class="banner-box">
-				<a href="html/product.html"><img src="images/banner.jpg" alt=""></a>
-			</div>
-			<div class="box01">
-				<div class="box-h">
-					<h2 class="title">手机</h2>
-					<div class="more">
-						<a href="#">
-							查看全部
-							<i class="more-icon iconfont icon-icon_arrow_right"></i>
-						</a>
-					</div>
-				</div>
-				<div class="box-bd">
-					<div class="row">
-						<div class="spanl">
-							<ul>
-								<li class="brick-item2"><a href="#"><img src="images/banner001.jpg" alt=""></a></li>
-							</ul>
-							
-						</div>
-						<div class="spanr2">
-							<ul class="spanr-ul2">
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp001.jpg" alt="">
-                                    	</div>
-										<div class="title">
-											Redmi K20 Pro 6GB+128GB
-										</div>
-										<div class="desc">
-											骁龙855， 弹出全面屏
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2599</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp001.jpg" alt="">
-                                    	</div>
-										<div class="title">
-											Redmi K20 Pro 6GB+128GB
-										</div>
-										<div class="desc">
-											骁龙855， 弹出全面屏
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2599</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp001.jpg" alt="">
-                                    	</div>
-										<div class="title">
-											Redmi K20 Pro 6GB+128GB
-										</div>
-										<div class="desc">
-											骁龙855， 弹出全面屏
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2599</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp001.jpg" alt="">
-                                    	</div>
-										<div class="title">
-											Redmi K20 Pro 6GB+128GB
-										</div>
-										<div class="desc">
-											骁龙855， 弹出全面屏
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2599</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp001.jpg" alt="">
-                                    	</div>
-										<div class="title">
-											Redmi K20 Pro 6GB+128GB
-										</div>
-										<div class="desc">
-											骁龙855， 弹出全面屏
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2599</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp001.jpg" alt="">
-                                    	</div>
-										<div class="title">
-											Redmi K20 Pro 6GB+128GB
-										</div>
-										<div class="desc">
-											骁龙855， 弹出全面屏
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2599</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp001.jpg" alt="">
-                                    	</div>
-										<div class="title">
-											Redmi K20 Pro 6GB+128GB
-										</div>
-										<div class="desc">
-											骁龙855， 弹出全面屏
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2599</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp001.jpg" alt="">
-                                    	</div>
-										<div class="title">
-											Redmi K20 Pro 6GB+128GB
-										</div>
-										<div class="desc">
-											骁龙855， 弹出全面屏
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2599</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<div class="container-fluid box">
-		<div class="container">
-			<div class="banner-box">
-				<a href="#"><img src="images/banner2.jpg" alt=""></a>
-			</div>
-			<div class="box01">
-				<div class="box-h">
-					<h2 class="title">家电</h2>
-					<div class="more">
-						<ul class="tab-list tab-list-1">
-							<li class="tab-active">热门</li>
-							<li>电视影音</li>
-						</ul>
-					</div>
-				</div>
-				<div class="box-bg">
-					<div class="box-bd">
-					<div class="row">
-						<div class="spanl">
-							<ul>
-								<li class="brick-item2"><a href="html/product.html"><img src="images/sp0001.webp" alt=""></a></li>
-								<li class="brick-item2"><a href="#"><img src="images/sp0005.jpg" alt=""></a></li>
-							</ul>
-						</div>
-						<div class="spanr2" id="a1">
-							<ul class="spanr-ul2">
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp0002.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0002.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
 
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/sp0009.png" alt="">
-                                    	</div>
-										<div class="title text_left-t">					   
-                                            Air 13.3" 2019款 
-										</div>
-										<div class="price text_left-p">
-											<span class="num">4999</span>元起
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/more.png" alt="">
-                                    	</div>
-										<div class="more2">
-											浏览更多
-											<small>热门</small>
-										</div>
-									</a>
-								</li>
 
-							</ul>
-						</div>
-						<div class="spanr2 noblock" id="a2">
-							<ul class="spanr-ul2">
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0008.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="html/product.html">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
 
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/sp0010.jpg" alt="">
-                                    	</div>
-										<div class="title text_left-t">					   
-                                            Air 13.3" 2019款 
-										</div>
-										<div class="price text_left-p">
-											<span class="num">4999</span>元起
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/more.png" alt="">
-                                    	</div>
-										<div class="more2">
-											浏览更多
-											<small>热门</small>
-										</div>
-									</a>
-								</li>
 
-							</ul>
-						</div>
-					</div>
+
+
+	<div class="mt1" id="mt1">
+		<div class="mt0">
+			<span class="close-out">X</span>
+			<div class="col-md-12 mt-ys">
+				<div class="padding30">
+					<img src="images/client1.png" alt="" class="">
+					<h4 class="col-md-12 col-sm-12">
+						BRANDING<br><br>
+						<span class="yh">品牌策略</span>
+					</h4>
 				</div>
 			</div>
 
 		</div>
 	</div>
-	</div>
 
-	<div class="container-fluid box">
-		<div class="container">
-			<div class="banner-box">
-				<a href="#"><img src="images/banner3.jpg" alt=""></a>
-			</div>
-			<div class="box01">
-				<div class="box-h">
-					<h2 class="title">智能</h2>
-					<div class="more">
-						<ul class="tab-list tab-list-2">
-							<li class="tab-active">热门</li>
-							<li>耳机音箱</li>
-						</ul>
-					</div>
-				</div>
-				<div class="box-bg">
-					<div class="box-bd">
-					<div class="row">
-						<div class="spanl">
-							<ul>
-								<li class="brick-item2"><a href="#"><img src="images/sp0006.jpg" alt=""></a></li>
-								<li class="brick-item2"><a href="#"><img src="images/sp0007.jpg" alt=""></a></li>
-							</ul>
-						</div>
-						<div class="spanr2" id="b1">
-							<ul class="spanr-ul2">
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0008.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0008.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0002.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
 
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/sp0010.jpg" alt="">
-                                    	</div>
-										<div class="title text_left-t">					   
-                                            Air 13.3" 2019款 
-										</div>
-										<div class="price text_left-p">
-											<span class="num">4999</span>元起
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/more.png" alt="">
-                                    	</div>
-										<div class="more2">
-											浏览更多
-											<small>热门</small>
-										</div>
-									</a>
-								</li>
 
-							</ul>
-						</div>
-						<div class="spanr2 noblock" id="b2">
-							<ul class="spanr-ul2">
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0008.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
 
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/sp0010.jpg" alt="">
-                                    	</div>
-										<div class="title text_left-t">					   
-                                            Air 13.3" 2019款 
-										</div>
-										<div class="price text_left-p">
-											<span class="num">4999</span>元起
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/more.png" alt="">
-                                    	</div>
-										<div class="more2">
-											浏览更多
-											<small>热门</small>
-										</div>
-									</a>
-								</li>
 
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
 
-		</div>
-	</div>
-	</div>
-	
-	<div class="container-fluid box">
-		<div class="container">
-			<div class="banner-box">
-				<a href="#"><img src="images/banner4.jpg" alt=""></a>
-			</div>
-			<div class="box01">
-				<div class="box-h">
-					<h2 class="title">配件</h2>
-					<div class="more">
-						<ul class="tab-list tab-list-3">
-							<li class="tab-active">热门</li>
-							<li>保护套</li>
-						</ul>
-					</div>
-				</div>
-				<div class="box-bg">
-					<div class="box-bd">
-					<div class="row">
-						<div class="spanl">
-							<ul>
-								<li class="brick-item2"><a href="#"><img src="images/tag01.jpg" alt=""></a></li>
-								<li class="brick-item2"><a href="#"><img src="images/tag02.jpg" alt=""></a></li>
-							</ul>
-						</div>
-						<div class="spanr2" id="c1">
-							<ul class="spanr-ul2">
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0008.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0008.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0002.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0004.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
 
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/sp0010.jpg" alt="">
-                                    	</div>
-										<div class="title text_left-t">					   
-                                            Air 13.3" 2019款 
-										</div>
-										<div class="price text_left-p">
-											<span class="num">4999</span>元起
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/more.png" alt="">
-                                    	</div>
-										<div class="more2">
-											浏览更多
-											<small>热门</small>
-										</div>
-									</a>
-								</li>
 
-							</ul>
-						</div>
-						<div class="spanr2 noblock" id="c2">
-							<ul class="spanr-ul2">
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0002.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0008.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0002.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
 
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/sp0010.jpg" alt="">
-                                    	</div>
-										<div class="title text_left-t">					   
-                                            Air 13.3" 2019款 
-										</div>
-										<div class="price text_left-p">
-											<span class="num">4999</span>元起
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/more.png" alt="">
-                                    	</div>
-										<div class="more2">
-											浏览更多
-											<small>热门</small>
-										</div>
-									</a>
-								</li>
 
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
 
-		</div>
-	</div>
-	</div>
-	
-	<div class="container-fluid box">
-		<div class="container">
-			<div class="banner-box">
-				<a href="#"><img src="images/banner5.jpg" alt=""></a>
-			</div>
-			<div class="box01">
-				<div class="box-h">
-					<h2 class="title">周边</h2>
-					<div class="more">
-						<ul class="tab-list tab-list-4">
-							<li class="tab-active">热门</li>
-							<li>出行</li>
-						</ul>
-					</div>
-				</div>
-				<div class="box-bg">
-					<div class="box-bd">
-					<div class="row">
-						<div class="spanl">
-							<ul>
-								<li class="brick-item2"><a href="#"><img src="images/zb01.jpg" alt=""></a></li>
-								<li class="brick-item2"><a href="#"><img src="images/zb02.jpg" alt=""></a></li>
-							</ul>
-						</div>
-						<div class="spanr2" id="d1">
-							<ul class="spanr-ul2">
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb03.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb07.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb08.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb04.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb05.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网空调C1（一级能效）
-										</div>
-										<div class="desc">
-											1.5匹，自清洁，全直流变频
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-											<del>
-												<span class="num">2799</span>元
-											</del>
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb06.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb07.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
 
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/zb09.jpg" alt="">
-                                    	</div>
-										<div class="title text_left-t">					   
-                                            Air 13.3" 2019款 
-										</div>
-										<div class="price text_left-p">
-											<span class="num">4999</span>元起
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/more.png" alt="">
-                                    	</div>
-										<div class="more2">
-											浏览更多
-											<small>热门</small>
-										</div>
-									</a>
-								</li>
 
-							</ul>
-						</div>
-						<div class="spanr2 noblock" id="d2">
-							<ul class="spanr-ul2">
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb08.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb04.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb08.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/zb04.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            米家互联网洗烘一体机 Pro 10kg
-										</div>
-										<div class="desc">
-											智能洗烘，省心省力
-										</div>
-										<div class="price">
-											<span class="num">2299</span>元
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-m">
-									<a href="#">
-										<div class="imgs">
-                                       		<img src="images/sp0003.jpg" alt="">
-                                    	</div>
-										<div class="title">					
-                                            全面屏设计，人工智能语音
-										</div>
-										<div class="desc">
-											全面屏设计，人工智能语音
-										</div>
-										<div class="price">
-											<span class="num">2099</span>元
-										</div>
-									</a>
-								</li>
 
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/sp0010.jpg" alt="">
-                                    	</div>
-										<div class="title text_left-t">					   
-                                            Air 13.3" 2019款 
-										</div>
-										<div class="price text_left-p">
-											<span class="num">4999</span>元起
-										</div>
-									</a>
-								</li>
-								<li class="brick-item brick-item-s">
-									<a href="#">
-										<div class="imgs-s">
-                                       		<img src="images/more.png" alt="">
-                                    	</div>
-										<div class="more2">
-											浏览更多
-											<small>热门</small>
-										</div>
-									</a>
-								</li>
 
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
 
-		</div>
-	</div>
-	</div>
 
-	<div class="container-fluid box">
-		<div class="container">
-			<div class="banner-box">
-				<a href="#"><img src="images/banner.jpg" alt=""></a>
-			</div>
-			<div class="vedio">
-				<div class="box-hd">
-					<h2 class="title">视频</h2>
-					<div class="more">
-						<a href="#">
-							查看全部
-							<i class="more-icon iconfont icon-icon_arrow_right"></i>
-						</a>
-					</div>
-				</div>
-				<div class="vedio-list">
-					<div>
-						<div class="spans">
-							<ul class="spans-bottom">
-								<li>
-									<a href="#">
-										<div class="vedio-img">
-                                       		<img src="images/vedio01.jpg" alt="">
-                                       		<span class="play">
-                                       			<i class="play-icon iconfont icon-play"></i>
-                                       		</span>
-                                    	</div>
-										<div class="title">
-                        					小米CC9
-										</div>
-										<div class="desc">
-                        					深蓝星球
-										</div>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<div class="vedio-img">
-                                       		<img src="images/vedio02.jpg" alt="">
-                                       		<span class="play">
-                                       			<i class="play-icon iconfont icon-play"></i>
-                                       		</span>
-                                    	</div>
-										<div class="title">
-                       						Redmi Note 7系列
-										</div>
-										<div class="desc">
-											镜花水月
-										</div>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<div class="vedio-img">
-                                       		<img src="images/vedio03.jpg" alt="">
-                                       		<span class="play">
-                                       			<i class="play-icon iconfont icon-play"></i>
-                                       		</span>
-                                    	</div>
-										<div class="title">
-                        					黑鲨游戏手机2 Pro
 
-										</div>
-										<div class="desc">
-											指尖主宰&nbsp;发布会
-										</div>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<div class="vedio-img">
-                                       		<img src="images/vedio04.jpg" alt="">
-                                       		<span class="play">
-                                       			<i class="play-icon iconfont icon-play"></i>
-                                       		</span>
-                                    	</div>
-										<div class="title">
-                        					小米手环4
 
-										</div>
-										<div class="desc">
-                        					改变从今开始
-										</div>
-									</a>
-								</li>
-								
-								
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
 
-	<div class="container-fluid box1">
-		<div class="container">
-			<div class="footer-service">
-				<ul>
-					<li><a href="#"><em class="iconfont icon-tool"></em>预约维修服务</a></li>
-					<li><a href="#"><em class="iconfont icon-7"></em>
-					7天无理由退货</a></li>
-					<li><a href="#"><em class="iconfont icon-15"></em>15天免费换货</a></li>
-					<li><a href="#"><em class="iconfont icon-gift"></em>满150元包邮</a></li>
-					<li><a href="#"><em class="iconfont icon-location1"></em>520余家售后网点</a></li>
-				</ul>
-			</div>
-			<div class="footer-links">
-				<dl class="dl-links">
-					<dt>
-						帮助中心
-						<dd><a href="#">账户管理</a></dd>
-						<dd><a href="#">购物指南</a></dd>
-						<dd><a href="#">订单操作</a></dd>
-					</dt>
-				</dl>
-				<dl class="dl-links">
-					<dt>
-						服务支持
-						<dd><a href="#">售后政策</a></dd>
-						<dd><a href="#">自助服务</a></dd>
-						<dd><a href="#">相关下载</a></dd>
-					</dt>
-				</dl>
-				<dl class="dl-links">
-					<dt>
-						线下门店
-						<dd><a href="#">小米之家</a></dd>
-						<dd><a href="#">服务网点</a></dd>
-						<dd><a href="#">授权体验店</a></dd>
-					</dt>
-				</dl>
-				<dl class="dl-links">
-					<dt>
-						关于小米
-						<dd><a href="#">了解小米</a></dd>
-						<dd><a href="#">加入小米</a></dd>
-						<dd><a href="#">投资者关系</a></dd>
-					</dt>
-				</dl>
-				<dl class="dl-links">
-					<dt>
-						关注我们
-						<dd><a href="#">新浪微博</a></dd>
-						<dd><a href="#">官方微信</a></dd>
-						<dd><a href="#">联系我们</a></dd>
-					</dt>
-				</dl>
-				<dl class="dl-links">
-					<dt>
-						特色服务
-						<dd><a href="#">F 码通道</a></dd>
-						<dd><a href="#">礼物码</a></dd>
-						<dd><a href="#">防伪查询</a></dd>
-					</dt>
-				</dl>
-				<div class="dl-box">
-					<p class="phone">400-100-5678</p>
-					<p class="dl-p">
-						周一至周日 8:00-18:00<br>
-						（仅收市话费）
-					</p>
-					<a href="#">
-						<em class="iconfont icon-news"></em>
-						 人工客服
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
 
-	<div class="container-fluid box2">
-		<div class="container">
-			<div class="info-logo"></div>
-			<div class="info-text">
-				<p class="text-site">
-					<a href="#">小米商城</a>
-					<span>|</span>
-					<a href="#">MIUI</a>
-					<span>|</span>
-					<a href="#">米家</a>
-					<span>|</span>
-					<a href="#">米聊</a>
-					<span>|</span>
-					<a href="#">多看</a>
-					<span>|</span>
-					<a href="#">游戏</a>
-					<span>|</span>
-					<a href="#">路由器</a>
-					<span>|</span>
-					<a href="#">米粉卡</a>
-					<span>|</span>
-					<a href="#">政企服务</a>
-					<span>|</span>
-					<a href="#">小米天猫店</a>
-					<span>|</span>
-					<a href="#">隐私政策</a>
-					<span>|</span>
-					<a href="#">商城用户协议</a>
-					<span>|</span>
-					<a href="#">账号协议</a>
-					<span>|</span>
-					<a href="#">问题反馈</a>
-					<span>|</span>
-					<a href="#">廉正举报</a>
-					<span>|</span>
-					<a href="#">诚信合规</a>
-					<span>|</span>
-					<a href="#">Select Location</a>
-				</p>
-				<p>
-					© mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2017]1530-131号<br> 
-					（京）网械平台备字（2018）第00005号 互联网药品信息服务资格证 (京) -非经营性-2014-0090 营业执照 医疗器械公告<br>  
-					增值电信业务许可证  网络食品经营备案（京）【2018】WLSPJYBAHF-12   食品经营许可证 <br> 
-					违法和不良信息举报电话：185-0130-1238 知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
-				</p>
-				<div class="info-links">
-					<a href="#"><img src="images/info01.png" alt=""></a>
-					<a href="#"><img src="images/info02.png" alt=""></a>
-					<a href="#"><img src="images/info03.png" alt=""></a>
-					<a href="#"><img src="images/info04.png" alt=""></a>
-					<a href="#"><img src="images/info05.png" alt=""></a>
-			</div>
-			</div>
-			<div class="slogan"></div>
-		</div>
-	</div>
 
-		<ul class="aside-right">
-			<li class="download"><div class="aside-icon">
-				<img src="images/aside-11.png" alt="">
-				<img src="images/aside-12.png" class="noblock" alt="">
-				</div>
-				<span>手机APP</span>
-				<div class="pop">
-					<img src="images/download.png" alt="">
-					<span>
-						手机扫一扫<br>
-						一分赢好礼
-					</span>
-				</div>
-			</li>
-			<li><div class="aside-icon">
-				<img src="images/aside-21.png" alt="">
-				<img src="images/aside-22.png" class="noblock" alt="">
-				</div>
-				<span>个人中心</span>
-			</li>
-			<li><div class="aside-icon">
-				<img src="images/f01.png" alt="">
-				<img src="images/f02.png" class="noblock" alt="">
-				</div>
-				<span>售后服务</span>
-			</li>
-			<li><div class="aside-icon">
-				<img src="images/aside-31.png" alt="">
-				<img src="images/aside-32.png" class="noblock" alt="">
-				</div>
-				<span>人工客服</span>
-			</li>
-			<li>
-				<a href="html/Settle.html">
-					<div class="aside-icon">
-					<img src="images/car.png" alt="">
-					<img src="images/car2.png" class="noblock" alt="">
-					</div>
-					<span>购物车</span>
-				</a>
-			</li>
-			<li class="toptop"><div class="aside-icon">
-				<img src="images/totop.png" alt="">
-				<img src="images/totop_hover.png" class="noblock" alt="">
-				</div>
-				<span>回顶部</span>	
-			</li>
-		</ul>
+
+
+
+
+
+
+
+
+
 </body>
 </html>
