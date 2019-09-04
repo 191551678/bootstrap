@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-27 17:00:26
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-04 10:36:49
+* @Last Modified time: 2019-09-04 14:03:51
 */
 /* 头部 */
 body{
@@ -458,8 +458,7 @@ a:hover{
     background-position: 0px -51.4844px;
     background-size: 100% 100%;
     width: 100%;
-	height: 100%;
-    
+	height: 100%; 
 }
 .client{
 	padding: 100px 0;
@@ -595,6 +594,25 @@ a:hover{
 	}
     .services{
         background: #313131 url('../images/index01.png') fixed no-repeat center;
+    }
+    .screen3{
+        background-size: contain;
+        background: url('../images/index02.jpg') fixed no-repeat center;
+        position: relative;
+        background-position: -300px -1000px;
+        z-index: 1;
+        color: #fff;
+        text-align: center;
+    }
+    #client0{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: url('../images/index03.jpg') fixed no-repeat center;
+        background-position: 0px -51.4844px;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100%; 
     }
 }
 @media (min-width: 768px) { 
