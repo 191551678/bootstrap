@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-31 14:53:46
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-04 15:15:00
+* @Last Modified time: 2019-09-05 14:37:15
 */
 
 
@@ -44,9 +44,11 @@ p{
 	background-color: transparent;
 }
 .focus{
+	color:  transparent !important;
+}
+.active1{
 	color:  #db6f6a !important;
 }
-
 .white{
 	background: #fff;
 	color: #777;

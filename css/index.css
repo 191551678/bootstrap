@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-27 17:00:26
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-04 14:37:00
+* @Last Modified time: 2019-09-05 14:22:10
 */
 /* 头部 */
 body{
@@ -35,7 +35,7 @@ a:hover{
     text-transform: uppercase;
 }
 .header-padding1{
-	padding: 10px 0;
+	padding: 20px 0 10px;
 }
 .header-border1{
     border-top: 1px solid #222 !important;
@@ -47,8 +47,19 @@ a:hover{
 .b2{
 	color: #222;
 }
+.border{
+    border-top: 1px solid #222 !important;
+    border-bottom: 1px solid #222 !important;
+}
+.border1{
+    border-top: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
+}
 .nav>li>a:hover{
 	background-color: transparent !important;
+}
+.navbar-brand {
+    padding-top: 10px;
 }
 .header-logo{
 }
@@ -74,6 +85,7 @@ a:hover{
     background-color: transparent !important;
 }
 .white{
+    transition: 0.2s;
 	color: #000 !important;
 }
 .wt{
@@ -625,6 +637,17 @@ a:hover{
 		height: auto;
 		margin-bottom: 30px;
 	}
+    .box1{
+        display: table;
+        width: 100%;
+        height: auto;
+        padding: 150px 0 200px;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
 }
 @media (min-width: 992px) { 
 	.mt-ys img{
@@ -636,9 +659,19 @@ a:hover{
 }
 @media (min-width: 	1200px) { 
 	.mt-ys img{
-		
 		width: 30%;
 		height: auto;
 		margin-bottom: 30px;
 	}
+    .box1{
+        display: table;
+        width: 100%;
+        height: auto;
+        padding: 350px 0 310px;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
 }

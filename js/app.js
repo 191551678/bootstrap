@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-09-02 18:39:44
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-04 15:07:03
+* @Last Modified time: 2019-09-05 14:36:34
 */
 $(function(){
 
@@ -93,7 +93,13 @@ $(function(){
 
 
  	/*header*/
-	
+
+	var s1=$('#home').offset().top-50;
+	var s2=$('#overview').offset().top-80;
+	var s3=$('#benefits').offset().top-80;
+	var s4=$('#screenshots').offset().top-100;
+	var s5=$('#testimonial').offset().top-100;
+	var s6=$('#faqs').offset().top-700;
  
  	$(window).scroll(function(event) {
  		if($(window).scrollTop()>100){
@@ -105,6 +111,22 @@ $(function(){
  			$('nav a').css('color', '#fff')
  			$('.header-btn').css('color', '#fff');
  		}
+
+
+ 		if($(window).scrollTop()>=s1&&$(window).scrollTop()<s2){
+			$('.s1').addClass('active1').parent('li').siblings('li').children('a').removeClass('active1')
+		}else if($(window).scrollTop()>=s2&&$(window).scrollTop()<s3){
+			$('.s2').addClass('active1').parent('li').siblings('li').children('a').removeClass('active1')
+		}else if($(window).scrollTop()>=s3&&$(window).scrollTop()<s4){
+			$('.s3').addClass('active1').parent('li').siblings('li').children('a').removeClass('active1')
+		}else if($(window).scrollTop()>=s4&&$(window).scrollTop()<s5){
+			$('.s4').addClass('active1').parent('li').siblings('li').children('a').removeClass('active1')
+		}else if($(window).scrollTop()>=s5&&$(window).scrollTop()<s6){
+			$('.s5').addClass('active1').parent('li').siblings('li').children('a').removeClass('active1')
+		}else{
+			$('.s6').addClass('active1').parent('li').siblings('li').children('a').removeClass('active1')
+		}
+
 
  	});
  	
